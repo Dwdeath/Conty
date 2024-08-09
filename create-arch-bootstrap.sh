@@ -35,7 +35,7 @@ devel_pkgs="base-devel git meson mingw-w64-gcc cmake"
 # Apart from packages from the official Arch repos, you can also specify
 # packages from the Chaotic-AUR repo
 export packagelist="${audio_pkgs} ${video_pkgs} ${wine_pkgs} ${devel_pkgs} \
-	nano ttf-dejavu ttf-liberation lutris steam firefox mpv geany pcmanfm \
+	micro ttf-dejavu ttf-liberation mpv geany pcmanfm \
 	htop qbittorrent speedcrunch gpicview file-roller xorg-xwayland \
 	steam-native-runtime gamemode lib32-gamemode jre17-openjdk lxterminal \
 	steamtinkerlaunch mangohud lib32-mangohud qt6-wayland wayland \
@@ -48,7 +48,7 @@ export packagelist="${audio_pkgs} ${video_pkgs} ${wine_pkgs} ${devel_pkgs} \
 	libretro-retrodream libretro-yabause sunshine"
 
 # If you want to install AUR packages, specify them in this variable
-export aur_packagelist=""
+export aur_packagelist="librewolf-hg"
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
