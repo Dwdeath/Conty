@@ -27,7 +27,7 @@ devel_pkgs="base-devel git meson mingw-w64-gcc cmake"
 export packagelist="${audio_pkgs} ${video_pkgs} ${wine_pkgs} ${devel_pkgs} \
 	micro ttf-dejavu ttf-liberation mpv geany pcmanfm \
 	qbittorrent file-roller xorg-xwayland \
-	lxterminal \
+	lxterminal haruna gwenview \
 	qt6-wayland wayland \
 	lib32-wayland qt5-wayland xorg-server-xephyr openbox"
 
